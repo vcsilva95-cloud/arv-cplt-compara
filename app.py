@@ -3,7 +3,7 @@ import copy
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
-from modelo_pddd import PARAMETROS_PADRAO, resolver_pl_unico, resolver_pddd
+from modelo import PARAMETROS_PADRAO, resolver_pl_unico, resolver_pddd
 
 st.set_page_config(page_title="PL Único x PDDD", page_icon="⚡", layout="wide")
 st.markdown("""<style>
